@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -7,11 +8,13 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-.container{
+
+.container {
     width: 100%;
     display: flex;
 }
-aside{
+
+aside {
     background-color: #f8f9fa;
     width: 300px;
     display: flex;
@@ -20,64 +23,136 @@ aside{
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
+
 /* .profile{
     display: flex;
     flex-direction: column;
     align-items: center;
 } */
-.profile img{
+.profile img {
     border-radius: 50%;
     width: 120px;
     height: 120px;
     margin-bottom: 10px;
     border: #007bff 3px solid;
 }
-.profile h1{
+
+.profile h1 {
     font-size: 24px;
     margin: 0;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
     width: 100%;
 }
-nav ul li{
+
+nav ul li {
     margin: 10px 0;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #333;
     display: block;
     padding: 10px;
     border-radius: 20px;
-    transition: background-color 0.3s ease ;
+    transition: background-color 0.3s ease;
     transition: text-align 0.2s ease-in-out;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     background-color: #e9ecef;
     text-align: center;
-        border: #007bff 1px solid;
+    border: #007bff 1px solid;
 }
-footer{
+
+footer {
     margin-top: auto;
     text-align: center;
 }
-footer p{
+
+footer p {
     font-size: 14px;
     color: #777;
 }
-.social a{
+
+.social a {
     text-decoration: none;
     color: #333;
     display: inline-block;
     transition: all 0.2s ease-in-out;
 }
-.social a:hover{
+
+.social a:hover {
     color: #007bff;
     transform: scale(1.4);
 }
-.social a i{
+
+.social a i {
     font-size: 24px;
     margin: 0 10px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro{
+    max-width: 600px;
+}
+.intro h2 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+.intro h2 span {
+    color: #7e57c2;
+}
+.intro p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.cta {
+    margin: 20px 0;
+}
+.cta button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cta button:first-child {
+    background-color: #343a40;
+    color: #fff;
+}
+.cta button:last-child {
+    background-color: #fff;
+    color: #343a40;
+    border: 1px solid #343a40;
+}
+.contact-info {
+    margin: 20px 0;
+    font-size: 16px;
+}.contact-info p {
+    margin: 5px 0;
+}
+.contact-info a {
+    color: #343a40;
+    text-decoration: none;
+}
+.intro-image{
+    width: 100%;
+    max-width: 500px;
+}
+.intro-image img{
+    max-width: 500px;
+    border-radius: 10%;
 }
