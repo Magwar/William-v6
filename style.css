@@ -147,6 +147,7 @@ main {
 .contact-info a {
     color: #343a40;
     text-decoration: none;
+    display: none;
 }
 .intro-image{
     width: 100%;
